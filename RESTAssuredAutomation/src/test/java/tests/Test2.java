@@ -9,7 +9,7 @@ import io.restassured.response.Response;
 public class Test2 {
 
 	
-	@Test
+	//@Test
 	public void test_2() {
 		
 		Response response = RestAssured.get("https://reqres.in/api/users?page=2");
