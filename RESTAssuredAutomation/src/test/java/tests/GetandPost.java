@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 
 
 public class GetandPost {
-	//@Test
+	@Test
 	public void TestGet() {
 		
 		baseURI = "https://reqres.in/api/";

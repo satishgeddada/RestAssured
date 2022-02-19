@@ -11,7 +11,7 @@ import java.util.Map;
 
 public class LocalTest {
 	
-//	@Test
+	@Test
 	public void testGet() {
 		
 		baseURI = "http://localhost:3000/";
@@ -20,7 +20,7 @@ public class LocalTest {
 	}
 	
 	
-//	@Test
+	@Test
 	public void testPost() {
 		
 		JSONObject request = new JSONObject();
@@ -48,7 +48,7 @@ public class LocalTest {
 			
 	}
 	
-//	@Test
+	@Test
 	public void put() {
 		
 		JSONObject request = new JSONObject();
@@ -70,7 +70,7 @@ public class LocalTest {
 		
 					
 	}
-//	@Test
+	@Test
 	public void patch() {
 		
 		JSONObject request = new JSONObject();
