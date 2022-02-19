@@ -89,7 +89,7 @@ public class LocalTest {
 				
 	}
 	
-	@Test
+//	@Test
 	public void delete() {
 		
 		baseURI = "http://localhost:3000/";
