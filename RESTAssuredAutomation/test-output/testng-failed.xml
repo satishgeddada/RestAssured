@@ -6,6 +6,9 @@
       <class name="tests.LocalTest">
         <methods>
           <include name="testPost"/>
+          <include name="testGet"/>
+          <include name="put"/>
+          <include name="patch"/>
         </methods>
       </class> <!-- tests.LocalTest -->
     </classes>
